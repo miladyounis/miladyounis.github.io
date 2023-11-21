@@ -3314,3 +3314,23 @@ input, select, textarea {
 			}
 
 	}
+	/* Your existing styles go above this line */
+
+/* Remove bullet points from the contact info list */
+ul.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for each contact info item */
+ul.contact-info li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Icon style */
+ul.contact-info li .icon {
+    margin-right: 10px;
+}
